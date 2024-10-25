@@ -19,6 +19,9 @@ router.post('/ajout',(req, res)=>{
         )
 
 })
+router.get('/', (req, res) => {
+    res.send("Backend is working!");
+  });
 
 router.get('/list',(req, res)=>{
     Todo.find()
