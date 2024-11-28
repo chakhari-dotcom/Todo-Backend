@@ -2,7 +2,7 @@ const mongoose= require("mongoose");
 // MONGODB_URL='mongodb://localhost:27017/todo';
 // const dbURL = process.env.MONGODB_URL;
 
-mongoose.connect('mongodb://127.0.0.1:27017/todo')
+mongoose.connect('mongodb+srv://chakharifatma77:xe90L7eeyEQX6Mxt@cluster0.mongodb.net/myDatabase?retryWrites=true&w=majority')
    .then(
     ()=>{
         console.log("connected")
@@ -24,6 +24,6 @@ mongoose.connect('mongodb://127.0.0.1:27017/todo')
 //   .catch((error) => {  // Proper error handling
 //     console.error('Error connecting to MongoDB:', error);
 //   });
-
+// mongodb://127.0.0.1:27017/todo
  
   
